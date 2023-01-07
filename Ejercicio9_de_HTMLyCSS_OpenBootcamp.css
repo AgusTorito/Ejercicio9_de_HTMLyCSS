@@ -1,15 +1,25 @@
+    body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .btn-modern {
-    background-color: red;
-    border-radius: 5px;
+    background-color: aquamarine;
+    border-radius: 8px;
     border: none;
     color: white;
+    padding: 5px 25px;
 }
 
 .btn-modern:hover { 
     border: none;
     transform: translateY(-5px);
-    border-bottom: 2px solid black;
-    background-color: rgba(211, 38, 38, 0.74);
-    color: black;
+    border-bottom: 2px solid cadetblue;
+    background-color: aqua;
+    color: bisque;
     transition: background-color, border-bottom, 0.4s;
 }
